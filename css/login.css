@@ -1,0 +1,58 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #e7cc97;
+    background-size: 1090px 682px;
+    background: url(../img/bg.jpg) no-repeat;
+}
+
+#ttf {
+    font-size: 50px;
+    font-style: initial;
+    font-family: "汉仪行楷简";
+    float: left;
+}
+
+form {
+    position: relative;
+    width: 343px;
+    height: 500px;
+    top: -200px;
+    left: 220px;
+    margin: 100px 20%;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    background: rgba(235, 217, 194, 0.5);
+    box-shadow: 0 0 10px 10px rgba(250, 240, 236, 0.3);
+    overflow: hidden;
+}
+
+input {
+    width: 280px;
+    height: 36px;
+    margin-top: 100px;
+    border: 1px solid rgba(216, 143, 101, 0.4);
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.4) no-repeat 16px 16px;
+}
+
+input [name="id"] {
+    padding-left: 45px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.login {
+    font: caption;
+    position: relative;
+    top: 10px;
+    width: 110px;
+    left: 35%;
+    text-align: center;
+}
